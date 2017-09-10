@@ -1,0 +1,9 @@
+{% if games %}
+    <table>
+        {% for game in games %}
+        <tr>
+            <td>{{game.away}} @ {{game.home}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+{% endif %}

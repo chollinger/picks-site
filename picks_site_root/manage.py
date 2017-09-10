@@ -3,7 +3,7 @@ import os
 import sys
 
 if __name__ == "__main__":
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "pickssite.settings")
+    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "picks_site_root.settings")
     try:
         from django.core.management import execute_from_command_line
     except ImportError:
